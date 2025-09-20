@@ -22,7 +22,8 @@ Testing the webserver.
 
 # PROGRAM:
 
-```from http.server import HTTPServer,BaseHTTPRequestHandler
+```
+from http.server import HTTPServer,BaseHTTPRequestHandler
 content='''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,10 +47,10 @@ content='''<!DOCTYPE html>
 <p>
 <h2><u>Device specification</u></h2>
 <ol Type='1' start='1'>
-<h3><li>Device name:</b> TMP215-75-G2</h3></li>
-<h3><li>Processor:</b> Intel(R)Core(TM) Ultra 5 125H (1.20 GHz)</h3></li>
-<h3><li>Installed RAM:</b> 16.0 GB (15.5 GB usable)</h3></li>
-<h3><li>Device ID:</b> E3F06795-1915-4187-8C56-F3F3634559FF</h3></li>
+<h3><li>Device name: TMP215-75-G2</h3></li>
+<h3><li>Processor: Intel(R)Core(TM) Ultra 5 125H (1.20 GHz)</h3></li>
+<h3><li>Installed RAM: 16.0 GB (15.5 GB usable)</h3></li>
+<h3><li>Device ID: E3F06795-1915-4187-8C56-F3F3634559FF</h3></li>
 <h3><li>Product ID: 00342-42784-08509-AAOEM</h3></li>
 <h3><li>System type: 64-bit operating system, x64-based processor</h3></li>
 <h3><li>Pen and touch: No pen or touch input is available for this display</h3></li>
